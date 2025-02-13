@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: 3% 2% 90$ 2% 3%;
+}
+.grid img {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+}
+
+.grid img:nth-child(even) {
+    border: 5px orange dashed;
+}
+
+/* .grid img:last-child {
+    border: 5px green solid;
+    padding: 10px;
+    grid-column: 1/-1;
+} */
+
+.item7 {
+    border: 5px green solid;
+    padding: 10px;
+    grid-column: 1/-1;
+}
+
+.grid .item1 {
+    border: solid 5px green;
+    padding: 10px;
+}
